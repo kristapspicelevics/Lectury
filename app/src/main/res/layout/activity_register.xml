@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#4CAF50"
+    tools:context=".RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="auto"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/lilita_one"
+                android:text="Lectury"
+                android:textColor="#000000"
+                android:textSize="60sp" />
+
+            <EditText
+                android:id="@+id/boxemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:hint="E-mail" />
+
+            <EditText
+                android:id="@+id/boxname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Name"
+                android:layout_below="@+id/boxemail"/>
+
+            <EditText
+                android:id="@+id/boxpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType = "textPassword"
+                android:hint="Password"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/boxname"/>
+
+            <Button
+                android:id="@+id/btnregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/boxpassword"
+                android:layout_marginTop="30dp"
+                android:text="Register"
+                app:backgroundTint="#1C7F10" />
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnregister"
+                android:layout_marginTop="30dp"
+                android:text="Already have registered, sign in!"
+                app:backgroundTint="#FF9800" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

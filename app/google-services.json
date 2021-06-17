@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26381507251",
+    "project_id": "lectury-ee14b",
+    "storage_bucket": "lectury-ee14b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26381507251:android:4c7acc4d6dcb3b58102ec6",
+        "android_client_info": {
+          "package_name": "com.example.lectury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26381507251-0nf2f3um0t1gv6kapcjc3j8bdifd6vdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcIEYerP5ygxDBSBS4gh1zQ2K8ewU9r1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26381507251-0nf2f3um0t1gv6kapcjc3j8bdifd6vdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
